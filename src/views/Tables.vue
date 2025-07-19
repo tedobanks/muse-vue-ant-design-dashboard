@@ -67,16 +67,16 @@
 			dataIndex: 'func',
 			scopedSlots: { customRender: 'func' },
 		},
-		{
-			title: 'STATUS',
-			dataIndex: 'status',
-			scopedSlots: { customRender: 'status' },
-		},
-		{
-			title: 'EMPLOYED',
-			dataIndex: 'employed',
-			class: 'text-muted',
-		},
+		// {
+		// 	title: 'STATUS',
+		// 	dataIndex: 'status',
+		// 	scopedSlots: { customRender: 'status' },
+		// },
+		// {
+		// 	title: 'EMPLOYED',
+		// 	dataIndex: 'employed',
+		// 	class: 'text-muted',
+		// },
 		{
 			title: '',
 			scopedSlots: { customRender: 'editBtn' },

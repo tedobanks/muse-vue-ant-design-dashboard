@@ -3,7 +3,7 @@
 	<!-- Layout Header ( Navbar ) -->
 	<a-layout-header>
 		<div class="header-col header-brand">
-			<h6>Muse Dashboard</h6>
+			<h6>Tabula Rasa Dashboard</h6>
 
 			<!-- Trigger Button For Navigation Menu For Small Screens -->
 			<a-button type="link" @click="collapseNav = collapseNav ? 0 : 1 " class="btn-menu-trigger">
@@ -15,7 +15,7 @@
 		<div class="header-col header-nav">
 
 			<!-- Navigation Menu For Large Screens -->
-			<a-menu mode="horizontal" class="menu-large">
+			<!-- <a-menu mode="horizontal" class="menu-large">
 				<a-menu-item>
 					<router-link to="/dashboard" class="nav-link" @click="e => e.preventDefault()">
 						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -61,7 +61,7 @@
 						<span>Sign Up</span>
 					</router-link>
 				</a-menu-item>
-			</a-menu>
+			</a-menu> -->
 			<!-- / Navigation Menu For Large Screens -->
 
 			<!-- Collapsible Navigation Menu For Small Screens -->
@@ -72,7 +72,7 @@
 					<a-collapse-panel key="1">
 
 						<!-- Navigation Menu For Small Screens -->
-						<a-menu mode="vertical">
+						<!-- <a-menu mode="vertical">
 							<a-menu-item>
 								<router-link to="/dashboard" class="nav-link" @click="e => e.preventDefault()">
 									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -118,7 +118,7 @@
 									<span>Sign Up</span>
 								</router-link>
 							</a-menu-item>
-						</a-menu>
+						</a-menu> -->
 						<!-- / Navigation Menu For Small Screens -->
 
 					</a-collapse-panel>
@@ -129,9 +129,9 @@
 			<!-- / Collapsible Navigation Menu For Small Screens -->
 
 		</div>
-		<div class="header-col header-btn">
+		<!-- <div class="header-col header-btn">
 			<a-button href="https://www.creative-tim.com/product/muse-vue-ant-design-dashboard" target="_blank" type="primary" shape="round">FREE DOWNLOAD</a-button>
-		</div>
+		</div> -->
 	</a-layout-header>
 	<!-- / Layout Header ( Navbar ) -->
 
